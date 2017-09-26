@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Request demo</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" type="text/css" href="bootstrap-css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="templates/html5up-directive/assets/css/main.css" />
+
+
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+
+    <style>
+        p {
+            font-family: system-ui;
+        }
+        
+        p-font {
+            font-family: system-ui;
+        }
+        
+        #body-button {
+            background-color: transparent;
+            background: #ffffff;
+            box-shadow: inset 0 0 0 1.5px #00BFA5;
+            color: #00BFA5;
+        }
+        
+        #body-button:hover {
+            background: #00BFA5;
+            color: #ffffff;
+            text-decoration: none;
+        }
+        
+        #purple-navbar {
+            background-color: #392c3c;
+            color: #FFFFFF;
+            height: 12%;
+        }
+        
+        .navbar a::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: #FFFFFF;
+            transition: width .3s;
+        }
+        
+        .navbar a:hover::after {
+            width: 100%;
+            transition: width .3s;
+        }
+    </style>
+
+    <!-- purple #392c3c -->
+</head>
+
+<body>
+    <nav class="navbar navbar-toggleable-md" id="purple-navbar">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="paladin-home.html"><h1 style="color:#FFFFFF; margin:none; font-size:1.5em">Paladin</h1></a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="paladin-testimonials.html" style="font-family: system-ui; color: #FFFFFF">Testimonials </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="paladin-demo.html" style="font-family: system-ui; color: #FFFFFF">Request demo</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="major container 75%" style="margin-top:3em; margin-left:auto; margin-right:auto;">
+        <div class="container">
+            <h1 style="font-size:1.5em">Demo</h1>
+            <p>Some details about what a demo entails.</p>
+            <div class="form-group">
+                <label for="exampleTextarea" style="text-align:left">Description</label>
+                <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+            </div>
+            <div class="form-group" style="text-align:left">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <br />
+            <ul class="actions ">
+                <li><a href="paladin-demo.html" class="button" id="body-button">Submit</a></li>
+            </ul>
+        </div>
+    </header>
+</body>
+
+</html>
