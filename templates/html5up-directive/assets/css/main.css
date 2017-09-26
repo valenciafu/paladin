@@ -2746,7 +2746,7 @@ input[type="button"].small,
     /* Header */
     #header {
         background-attachment: scroll, scroll, scroll;
-        background-image: url("images/top-1600.svg"), url("images/overlay.png"), url("images/christopher-burns-369659.jpg");
+        background-image: url("../../../../images/top-1600.svg"), url("../../../../images/overlay.png"), url("../../../../images/christopher-burns-369659.jpg");
         background-size: 1600px 230px, auto, cover;
         padding: 6em 0 12em 0;
     }
@@ -2764,7 +2764,7 @@ input[type="button"].small,
     }
     /* Footer */
     #footer {
-        background-image: url("images/bottom-1600.svg");
+        background-image: url("../../../../images/top-1600.svg");
         background-size: 1600px 230px;
         margin-top: -100px;
         padding: calc(230px + 4em) 0 6em 0;
@@ -2896,7 +2896,7 @@ input[type="button"].small,
     }
     /* Footer */
     #footer {
-        background-image: url("images/bottom-1280.svg");
+        background-image: url("../../../../images/bottom-1280.svg");
         background-size: 1280px 184px;
         margin-top: -75px;
         padding: calc(184px + 2em) 0 2em 0;
