@@ -96,9 +96,17 @@
                 </ul>
             </form> -->
             <form action="https://formspree.io/vfu@sas.upenn.edu" method="POST">
-                <input type="text" name="name">
-                <input type="email" name="_replyto">
-                <input type="submit" value="Send">
+                <div class="form-group">
+                    <label for="inputName" style="text-align:left">Name or Organization Name</label>
+                    <input type="text" class="form-control" name="name" id="inputName">
+                </div>
+                <div class="form-group" style="text-align:left">
+                    <label for="inputEmail">Email address</label>
+                    <input type="email" class="form-control" name="_replyto" id="inputEmail">
+                </div>
+                <div class="form-group">
+                    <input type="submit" class="button" id="body-button" value="Send">
+                </div>
             </form>
         </div>
     </header>
