@@ -1679,7 +1679,7 @@ body {
 }
 
 body {
-    background: #ffffff;
+    background: #FFFFFF;
 }
 
 body.is-loading * {
@@ -2318,7 +2318,7 @@ input[type="button"].small,
 /* Box */
 
 .box {
-    background: #ffffff;
+    background: #FFFFFF;
     border: solid 1px rgba(224, 224, 224, 0.75);
     margin-bottom: 6em;
     padding: 3.5em;
@@ -2665,7 +2665,7 @@ input[type="button"].small,
 
 #main header.major,
 #main footer.major {
-    background: #ffffff;
+    background: #FFFFFF;
 }
 
 
@@ -2850,7 +2850,7 @@ input[type="button"].small,
     }
     /* Feature */
     .feature {
-        background: #ffffff;
+        background: #FFFFFF;
         display: block;
         height: auto;
         margin-bottom: 2em;
